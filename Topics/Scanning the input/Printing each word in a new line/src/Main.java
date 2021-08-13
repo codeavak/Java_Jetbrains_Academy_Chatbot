@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        // put your code here
+        var scanner=new Scanner(System.in);
+        var words=new String[5];
+        for(int i=0;i<5;i++)
+        {
+            words[i]=scanner.next();
+        }
+        for(int i=0;i<5;i++){
+            System.out.println(words[i]);
+        }
+    }
+}
